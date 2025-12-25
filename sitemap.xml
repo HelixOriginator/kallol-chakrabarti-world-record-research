@@ -8,39 +8,4 @@
   <priority>1.0</priority>
 </url>
 
-<url>
-  <loc>https://helixoriginator.github.io/kallol-chakrabarti-world-record-research/#home</loc>
-  <lastmod>2025-01-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>1.0</priority>
-</url>
-
-<url>
-  <loc>https://helixoriginator.github.io/kallol-chakrabarti-world-record-research/#achievements</loc>
-  <lastmod>2025-01-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://helixoriginator.github.io/kallol-chakrabarti-world-record-research/#recognition</loc>
-  <lastmod>2025-01-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://helixoriginator.github.io/kallol-chakrabarti-world-record-research/#research</loc>
-  <lastmod>2025-01-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://helixoriginator.github.io/kallol-chakrabarti-world-record-research/#contact</loc>
-  <lastmod>2025-01-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.7</priority>
-</url>
-
 </urlset>
