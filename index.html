@@ -65,7 +65,6 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="fixed w-full z-50 bg-black bg-opacity-90 backdrop-blur-sm border-b border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
@@ -85,20 +84,23 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
         <div class="absolute inset-0 bg-gradient-to-br from-yellow-900 via-black to-black opacity-30"></div>
         <div class="relative z-10 text-center px-4 animate-float">
             <h1 class="text-5xl md:text-7xl font-bold mb-6 gold-gradient">Kallol Chakrabarti</h1>
             <p class="text-xl md:text-2xl text-gray-300 mb-8">World-Leading Independent Researcher</p>
             <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-12">Originator of Helix Wave Framework | 4400+ Research Downloads | 190+ Original Concepts | Government Recognized Scholar</p>
-            <a href="https://magical-axolotl-f3f94d.netlify.app/" target="_blank" class="inline-block gold-bg text-black font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition">
-                Explore Evidence Dashboard
-            </a>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://magical-axolotl-f3f94d.netlify.app/" target="_blank" class="inline-block gold-bg text-black font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition">
+                    Explore Evidence Dashboard
+                </a>
+                <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7407085" target="_blank" class="inline-block border border-yellow-500 text-yellow-500 font-semibold px-8 py-4 rounded-lg hover:bg-yellow-500 hover:text-black transition">
+                    View SSRN Papers
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Key Stats -->
     <section class="py-20 bg-gradient-to-b from-black to-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
@@ -122,7 +124,6 @@
         </div>
     </section>
 
-    <!-- Achievements -->
     <section id="achievements" class="py-20 bg-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 gold-gradient">World-First Achievements</h2>
@@ -173,7 +174,6 @@
         </div>
     </section>
 
-    <!-- Recognition -->
     <section id="recognition" class="py-20 bg-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 gold-gradient">Official Recognition</h2>
@@ -202,7 +202,6 @@
         </div>
     </section>
 
-    <!-- Research Areas -->
     <section id="research" class="py-20 bg-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 gold-gradient">Research Domains</h2>
@@ -235,34 +234,42 @@
         </div>
     </section>
 
-    <!-- Contact -->
     <section id="contact" class="py-20 bg-black">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8 gold-gradient">Connect & Collaborate</h2>
-            <p class="text-xl text-gray-300 mb-12">Interested in research collaboration, speaking engagements, or accessing full documentation?</p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <a href="https://helixoriginator.github.io/kallol-chakrabarti-biography-/" target="_blank" rel="noopener noreferrer" class="charcoal-card px-8 py-4 rounded-lg hover:border-yellow-500 transition inline-block">
-                    <span class="text-yellow-500 font-semibold">GitHub Profile</span>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 gold-gradient">Academic Proof & Connectivity</h2>
+            <p class="text-xl text-gray-300 mb-12">Access the full technical audit trail via official research repositories.</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12">
+                <a href="https://orcid.org/0009-0007-4971-8936" target="_blank" rel="noopener noreferrer" class="charcoal-card p-6 rounded-xl hover:border-green-500 transition group">
+                    <div class="text-green-500 text-3xl mb-2">🆔</div>
+                    <span class="text-white font-semibold block group-hover:text-green-400">ORCID Public Profile</span>
+                    <p class="text-xs text-gray-500 mt-1">Verified Researcher ID</p>
                 </a>
-                <a href="https://zenodo.org/record/16714489" target="_blank" rel="noopener noreferrer" class="charcoal-card px-8 py-4 rounded-lg hover:border-yellow-500 transition inline-block">
-                    <span class="text-yellow-500 font-semibold">Zenodo Archive</span>
+                
+                <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7407085" target="_blank" rel="noopener noreferrer" class="charcoal-card p-6 rounded-xl hover:border-blue-500 transition group">
+                    <div class="text-blue-500 text-3xl mb-2">📄</div>
+                    <span class="text-white font-semibold block group-hover:text-blue-400">SSRN Author Hub</span>
+                    <p class="text-xs text-gray-500 mt-1">Top 6% Global Downloads</p>
                 </a>
-                <a href="mailto:your.email@example.com" class="gold-bg text-black font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition inline-block">
-                    Contact Me
+
+                <a href="https://zenodo.org/records/14193574" target="_blank" rel="noopener noreferrer" class="charcoal-card p-6 rounded-xl hover:border-yellow-500 transition group">
+                    <div class="text-yellow-500 text-3xl mb-2">📦</div>
+                    <span class="text-white font-semibold block group-hover:text-yellow-400">Zenodo DOI Archive</span>
+                    <p class="text-xs text-gray-500 mt-1">CERN-powered Repository</p>
                 </a>
             </div>
+
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://hq.ssrn.com/submissions/MyPapers.cfm?partid=7407085" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transition inline-block">
-                    SSRN Papers
+                <a href="https://helixoriginator.github.io/kallol-chakrabarti-biography-/" target="_blank" class="charcoal-card px-8 py-4 rounded-lg hover:border-yellow-500 transition inline-block">
+                    <span class="text-yellow-500 font-semibold">GitHub Documentation</span>
                 </a>
-                <a href="https://orcid.org/my-orcid?orcid=0009-0007-4971-8936" target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg transition inline-block">
-                    ORCID Profile
+                <a href="mailto:kallolchitralimagicpen@gmail.com" class="gold-bg text-black font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition inline-block">
+                    Send Inquiry
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-black border-t border-gray-800 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p class="text-gray-400">&copy; 2024 Kallol Chakrabarti. All Rights Reserved.</p>
